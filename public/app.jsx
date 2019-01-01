@@ -4,6 +4,9 @@
  * html elements are returned
  */
 
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var GreeterMessage = React.createClass({
     render: function() {
         var name = this.props.name;
